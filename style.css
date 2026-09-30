@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f5f8;
+    color: #222;
+}
+
+/* Header */
+header {
+    background-color: #173b63;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+/* Navigation */
+nav {
+    background-color: #222;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    color: #4da6ff;
+}
+
+/* Sections */
+section {
+    background-color: white;
+    width: 90%;
+    max-width: 1000px;
+    margin: 25px auto;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+section h2 {
+    color: #173b63;
+    margin-bottom: 15px;
+}
+
+section p {
+    line-height: 1.7;
+    margin-bottom: 10px;
+}
+
+/* Button */
+button {
+    background-color: #173b63;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+/* Course Cards */
+.cards {
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    flex: 1;
+    background-color: #eaf3ff;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.card h3 {
+    color: #173b63;
+    margin-bottom: 10px;
+}
+
+/* Facilities */
+ul {
+    margin-left: 25px;
+    line-height: 2;
+}
+
+/* Faculty Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid #999;
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background-color: #173b63;
+    color: white;
+}
+
+/* Footer */
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+
+    nav a {
+        display: block;
+        margin: 10px;
+    }
+
+    .cards {
+        flex-direction: column;
+    }
+
+    section {
+        width: 95%;
+    }
+}
